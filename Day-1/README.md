@@ -1,0 +1,21 @@
+# Concepts of JavaScript
+
+- Variables & DataTypes
+- Operator & Conditionals
+- Loops & Strings
+- Functions in JavaScript
+- Arrays in JavaScript
+- Function call stack & Hoisting
+- Temporal Dead Zone in JS
+- Classes & Default Parameters in Javascript
+- Objects in JS
+- Error Handling
+- JS DOM Manipulation
+- Browser Events and Listeners
+- Performance: Reflow && Repaint in JS
+- Event Loops in JS
+- Promises in JS
+- Async & Await
+- Closures
+- Fetch & Axios
+- map, filter & Arrow functions
