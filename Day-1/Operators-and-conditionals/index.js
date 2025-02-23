@@ -229,11 +229,72 @@ console.log(enum2 >> 2); // 2
 // -------------------------------------------------------------------------------------------------------------
 //  - Ternary Operators - Ternary operator is a concise way to write conditional statements, it is widely used in JavaScript.
 
-let age = 13;
-const ans = age >= 18 ? "I can Vote" : "I can't Vote";
+// let age = 13;
+// const ans = age >= 18 ? "I can Vote" : "I can't Vote";
 // console.log(ans);
 
 // Short Circuting
 
 // console.log(false || true || false || true || false);
 // It will break the chain in the middle of conditions chacking while he get their truthy value or vice versa
+
+// --------------------------------------------------------------------------------------------------------------------------
+
+// CONDITIONALS
+// if-else statement
+/*
+
+let age = 19;
+if (age > 18) {
+  console.log("You can Vote");
+} else {
+  console.log("You Cannot Vote");
+}
+  */
+
+/*
+let user = true;
+if (user) {
+  console.log("user Alredy Exists");
+}
+*/
+/*
+let cond = 2;
+
+if (cond == 1) {
+  console.log("is one");
+} else if (cond == 2) {
+  console.log("id two");
+} else if (cond == 3) {
+  console.log("is three");
+} else if (cond == 4) {
+  console.log("is four");
+} else {
+  console.log("go to hell");
+}
+  */
+
+// --------------------------------------------------------------------------------------------------------------------------
+// switch statement
+
+let num = 40;
+
+switch (num) {
+  case 1:
+    console.log("A");
+    break;
+  case 2:
+    console.log("B");
+    break;
+
+  case 3:
+    console.log("C");
+    break;
+
+  case 4:
+    console.log("D");
+    break;
+
+  default:
+    console.log("F");
+}
