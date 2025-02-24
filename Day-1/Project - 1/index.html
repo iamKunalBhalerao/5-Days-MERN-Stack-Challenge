@@ -10,34 +10,39 @@
 
 <body>
     <main>
-        <div>
-            <div class="getDate">
-                <form>
-                    <div class="day">
-                        <p>Day</p>
-                        <input type="number" id="getDay">
-                    </div>
-                    <div class="month">
-                        <p>Day</p>
-                        <input type="number" id="getMonth">
-                    </div>
-                    <div class="year">
-                        <p>Day</p>
-                        <input type="number" id="getYear">
-                    </div>
-                </form>
-                <button id="Calculate">Calculate</button>
+        <div class="content-card">
+            <h1>Age Calculator</h1>
+            <div class="getData">
+
+                <div class="get">
+                    <p>Day</p>
+                    <input type="number" placeholder="DD" id="day">
+                </div>
+
+                <div class="get">
+                    <p>Month</p>
+                    <input type="number" placeholder="MM" id="month">
+                </div>
+
+                <div class="get">
+                    <p>Year</p>
+                    <input type="number" placeholder="YYYY" id="year">
+                </div>
+
             </div>
-            <div class="result">
-                <h1> --Years</h1>
-                <h1> --Months</h1>
-                <h1> --Days</h1>
+
+            <button id="result" onclick="calculateAge()">Calculate</button>
+            <div id="hr"></div>
+            <div id="resultdiv">
+                <h2 id="resultYear">-- Years</h2>
+                <h2 id="resultMonth">-- Months</h2>
+                <h2 id="resultDay">-- Days</h2>
             </div>
         </div>
     </main>
 
     <!-- Scripting file links -->
-     <script src="index.js"></script>
+    <script src="index.js"></script>
 
 </body>
 

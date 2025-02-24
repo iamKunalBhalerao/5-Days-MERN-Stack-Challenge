@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  letter-spacing: 0.2vw;
+}
+body {
+  height: 100%;
+  width: 100%;
+}
+
+main {
+  width: 100vw;
+  height: 100vh;
+  background-color: #f5efff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.content-card {
+  width: 80%;
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: white;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.content-card h1 {
+  font-size: 5vw;
+  font-weight: 900;
+}
+
+.content-card .getData {
+  width: 90%;
+  display: flex;
+  padding: 1vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: -2;
+}
+
+.content-card .getData p {
+  color: gray;
+  font-weight: 100;
+}
+
+#result {
+  padding: 1vw;
+  background-color: #3516ff;
+  color: white;
+  font-size: 20px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+#result:hover {
+  background: linear-gradient(to top, rgba(255, 0, 0, 0.722), #3516ff);
+}
+
+.content-card .getData input {
+  width: 70%;
+  height: 3rem;
+  padding: 1vw;
+  border: 1px solid rgb(167, 167, 167);
+  border-radius: 5px;
+}
+
+.content-card .getData .get {
+  width: 40%;
+  height: 100%;
+  gap: 0.5vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.result {
+  padding: 1vw;
+}
+
+#hr {
+  width: 90%;
+  height: 1px;
+  background-color: gray;
+}
+
+.result h2 {
+  font-size: 3rem;
+  font-weight: 900;
+}
