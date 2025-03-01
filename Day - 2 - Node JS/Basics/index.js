@@ -46,3 +46,5 @@ fs.appendFile(
   }
 );
 */
+
+console.log(__dirname);
