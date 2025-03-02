@@ -1,13 +1,20 @@
 const express = require("express");
-
 const app = express();
 
 app.use(express.json());
 
 const USERS = [];
 
+// in file middleware
+/*
+app.use((req, res, next) => {
+  console.log("This is middleware");
+  next();
+});
+*/
+
 // get data of all users usign get route
-app.get("/", (req, res) => {
+app.get("/", middleware, (req, res) => {
   res.status(200).json({
     AllUsers: USERS,
   });
